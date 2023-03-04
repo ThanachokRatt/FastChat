@@ -14,6 +14,7 @@
 		F84211C229B33BC60076CDDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84211C029B33BC60076CDDD /* Main.storyboard */; };
 		F84211C429B33BC70076CDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84211C329B33BC70076CDDD /* Assets.xcassets */; };
 		F84211C729B33BC70076CDDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84211C529B33BC70076CDDD /* LaunchScreen.storyboard */; };
+		F87967FA29B3B40400883907 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87967F929B3B40400883907 /* ChatViewController.swift */; };
 		F8871E0929B3617900D72316 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8871E0829B3617900D72316 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		F84211C329B33BC70076CDDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84211C629B33BC70076CDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F84211C829B33BC70076CDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87967F929B3B40400883907 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		F8871E0829B3617900D72316 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 				F84211BE29B33BC60076CDDD /* WelcomeViewController.swift */,
 				F8871E0829B3617900D72316 /* RegisterViewController.swift */,
 				F82AC96229B394530098B5CF /* LoginViewController.swift */,
+				F87967F929B3B40400883907 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				F84211BB29B33BC60076CDDD /* AppDelegate.swift in Sources */,
 				F84211BD29B33BC60076CDDD /* SceneDelegate.swift in Sources */,
 				F82AC96329B394530098B5CF /* LoginViewController.swift in Sources */,
+				F87967FA29B3B40400883907 /* ChatViewController.swift in Sources */,
 				F8871E0929B3617900D72316 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

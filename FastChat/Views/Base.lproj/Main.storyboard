@@ -259,10 +259,10 @@
             </objects>
             <point key="canvasLocation" x="1112.0930232558139" y="-332.18884120171674"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="e58-61-z1B">
             <objects>
-                <viewController id="3Al-sn-mm1" sceneMemberID="viewController">
+                <viewController id="3Al-sn-mm1" customClass="ChatViewController" customModule="FastChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cVF-1u-4af">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,6 +293,9 @@
                                         <color key="tintColor" name="LightPurple"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="paperplane.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="sendPressed:" destination="3Al-sn-mm1" eventType="touchUpInside" id="h8r-A7-VXW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -317,6 +320,10 @@
                             <constraint firstItem="w8R-4R-yPM" firstAttribute="trailing" secondItem="5Q4-94-eXE" secondAttribute="trailing" id="o4g-mo-USn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="messageTextfield" destination="duM-Mq-5MN" id="Qrg-Ir-STH"/>
+                        <outlet property="tableView" destination="w8R-4R-yPM" id="ij0-VL-oH2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="peA-cd-g4U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
