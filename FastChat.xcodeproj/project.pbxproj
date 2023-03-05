@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69F1A758F6ACAB17C899E095 /* Pods_FastChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C946DE4AB8176CD7984F8E /* Pods_FastChat.framework */; };
 		F82AC96329B394530098B5CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82AC96229B394530098B5CF /* LoginViewController.swift */; };
 		F84211BB29B33BC60076CDDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84211BA29B33BC60076CDDD /* AppDelegate.swift */; };
 		F84211BD29B33BC60076CDDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84211BC29B33BC60076CDDD /* SceneDelegate.swift */; };
@@ -15,10 +16,20 @@
 		F84211C429B33BC70076CDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84211C329B33BC70076CDDD /* Assets.xcassets */; };
 		F84211C729B33BC70076CDDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84211C529B33BC70076CDDD /* LaunchScreen.storyboard */; };
 		F87967FA29B3B40400883907 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87967F929B3B40400883907 /* ChatViewController.swift */; };
+		F87967FD29B3DEF900883907 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F87967FC29B3DEF900883907 /* GoogleService-Info.plist */; };
+		F879680029B3E2B700883907 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F87967FF29B3E2B700883907 /* FirebaseAuth */; };
+		F879680229B3E2B700883907 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F879680129B3E2B700883907 /* FirebaseFirestore */; };
 		F8871E0929B3617900D72316 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8871E0829B3617900D72316 /* RegisterViewController.swift */; };
+		F8A8B14B29B4E3EA00512373 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8B14A29B4E3EA00512373 /* Constant.swift */; };
+		F8A8B14D29B4E59E00512373 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8B14C29B4E59E00512373 /* Message.swift */; };
+		F8A8B15029B4EE9600512373 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8B14E29B4EE9600512373 /* MessageCell.swift */; };
+		F8A8B15129B4EE9600512373 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A8B14F29B4EE9600512373 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13C946DE4AB8176CD7984F8E /* Pods_FastChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D301E6F5400B24B9156AE17C /* Pods-FastChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastChat.debug.xcconfig"; path = "Target Support Files/Pods-FastChat/Pods-FastChat.debug.xcconfig"; sourceTree = "<group>"; };
+		E29595DA9D49FC90D2AD03B5 /* Pods-FastChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastChat.release.xcconfig"; path = "Target Support Files/Pods-FastChat/Pods-FastChat.release.xcconfig"; sourceTree = "<group>"; };
 		F82AC96229B394530098B5CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F84211B729B33BC60076CDDD /* FastChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84211BA29B33BC60076CDDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +40,12 @@
 		F84211C629B33BC70076CDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F84211C829B33BC70076CDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F87967F929B3B40400883907 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F87967FC29B3DEF900883907 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F8871E0829B3617900D72316 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F8A8B14A29B4E3EA00512373 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F8A8B14C29B4E59E00512373 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F8A8B14E29B4EE9600512373 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		F8A8B14F29B4EE9600512373 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +53,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F879680029B3E2B700883907 /* FirebaseAuth in Frameworks */,
+				F879680229B3E2B700883907 /* FirebaseFirestore in Frameworks */,
+				69F1A758F6ACAB17C899E095 /* Pods_FastChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40D80FD3AA54529ABF76ECB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13C946DE4AB8176CD7984F8E /* Pods_FastChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C253794E83D819C2901CEE81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D301E6F5400B24B9156AE17C /* Pods-FastChat.debug.xcconfig */,
+				E29595DA9D49FC90D2AD03B5 /* Pods-FastChat.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F84211AE29B33BC60076CDDD = {
 			isa = PBXGroup;
 			children = (
 				F84211B929B33BC60076CDDD /* FastChat */,
 				F84211B829B33BC60076CDDD /* Products */,
+				C253794E83D819C2901CEE81 /* Pods */,
+				40D80FD3AA54529ABF76ECB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +101,7 @@
 		F84211B929B33BC60076CDDD /* FastChat */ = {
 			isa = PBXGroup;
 			children = (
+				F87967FB29B3D6D100883907 /* Modles */,
 				F84211BA29B33BC60076CDDD /* AppDelegate.swift */,
 				F84211BC29B33BC60076CDDD /* SceneDelegate.swift */,
 				F8871E0029B35EE200D72316 /* Controllers */,
@@ -69,8 +109,17 @@
 				F84211C329B33BC70076CDDD /* Assets.xcassets */,
 				F84211C529B33BC70076CDDD /* LaunchScreen.storyboard */,
 				F84211C829B33BC70076CDDD /* Info.plist */,
+				F87967FC29B3DEF900883907 /* GoogleService-Info.plist */,
 			);
 			path = FastChat;
+			sourceTree = "<group>";
+		};
+		F87967FB29B3D6D100883907 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				F8A8B14C29B4E59E00512373 /* Message.swift */,
+			);
+			path = Modles;
 			sourceTree = "<group>";
 		};
 		F8871E0029B35EE200D72316 /* Controllers */ = {
@@ -80,6 +129,7 @@
 				F8871E0829B3617900D72316 /* RegisterViewController.swift */,
 				F82AC96229B394530098B5CF /* LoginViewController.swift */,
 				F87967F929B3B40400883907 /* ChatViewController.swift */,
+				F8A8B14A29B4E3EA00512373 /* Constant.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -88,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				F84211C029B33BC60076CDDD /* Main.storyboard */,
+				F8A8B14E29B4EE9600512373 /* MessageCell.swift */,
+				F8A8B14F29B4EE9600512373 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,15 +151,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F84211CB29B33BC70076CDDD /* Build configuration list for PBXNativeTarget "FastChat" */;
 			buildPhases = (
+				EF6E82F5615353DAB830BCD9 /* [CP] Check Pods Manifest.lock */,
 				F84211B329B33BC60076CDDD /* Sources */,
 				F84211B429B33BC60076CDDD /* Frameworks */,
 				F84211B529B33BC60076CDDD /* Resources */,
+				D0B90E47E02653C3F4395571 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FastChat;
+			packageProductDependencies = (
+				F87967FF29B3E2B700883907 /* FirebaseAuth */,
+				F879680129B3E2B700883907 /* FirebaseFirestore */,
+			);
 			productName = FastChat;
 			productReference = F84211B729B33BC60076CDDD /* FastChat.app */;
 			productType = "com.apple.product-type.application";
@@ -136,6 +194,9 @@
 				Base,
 			);
 			mainGroup = F84211AE29B33BC60076CDDD;
+			packageReferences = (
+				F87967FE29B3E2B700883907 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F84211B829B33BC60076CDDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,7 +211,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A8B15129B4EE9600512373 /* MessageCell.xib in Resources */,
 				F84211C729B33BC70076CDDD /* LaunchScreen.storyboard in Resources */,
+				F87967FD29B3DEF900883907 /* GoogleService-Info.plist in Resources */,
 				F84211C429B33BC70076CDDD /* Assets.xcassets in Resources */,
 				F84211C229B33BC60076CDDD /* Main.storyboard in Resources */,
 			);
@@ -158,17 +221,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D0B90E47E02653C3F4395571 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastChat/Pods-FastChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastChat/Pods-FastChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastChat/Pods-FastChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6E82F5615353DAB830BCD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F84211B329B33BC60076CDDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A8B14B29B4E3EA00512373 /* Constant.swift in Sources */,
 				F84211BF29B33BC60076CDDD /* WelcomeViewController.swift in Sources */,
 				F84211BB29B33BC60076CDDD /* AppDelegate.swift in Sources */,
 				F84211BD29B33BC60076CDDD /* SceneDelegate.swift in Sources */,
 				F82AC96329B394530098B5CF /* LoginViewController.swift in Sources */,
+				F8A8B14D29B4E59E00512373 /* Message.swift in Sources */,
 				F87967FA29B3B40400883907 /* ChatViewController.swift in Sources */,
 				F8871E0929B3617900D72316 /* RegisterViewController.swift in Sources */,
+				F8A8B15029B4EE9600512373 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +418,7 @@
 		};
 		F84211CC29B33BC70076CDDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D301E6F5400B24B9156AE17C /* Pods-FastChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +426,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FastChat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Chat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,6 +447,7 @@
 		};
 		F84211CD29B33BC70076CDDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29595DA9D49FC90D2AD03B5 /* Pods-FastChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,6 +455,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FastChat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Chat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -384,6 +496,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F87967FE29B3E2B700883907 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F87967FF29B3E2B700883907 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F87967FE29B3E2B700883907 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F879680129B3E2B700883907 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F87967FE29B3E2B700883907 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F84211AF29B33BC60076CDDD /* Project object */;
 }
